@@ -1,0 +1,25 @@
+# Large data files
+geneformer_tokenized_data/
+
+# Backup directories
+scratch_backup/
+
+# System and IDE files
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.cache/
+.conda/
+.cshrc
+.emacs
+.gitconfig
+.ipython/
+.jupyter/
+.local/
+.ssh/
+.viminfo
+.zshrc
+
+*.h5ad
+*.tar.gz
