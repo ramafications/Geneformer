@@ -24,7 +24,7 @@ datestamp_min = f"{str(current_date.year)[-2:]}{current_date.month:02d}{current_
 # /u/scratch/s/schhina/geneformer_output/240328191631
 
 output_prefix = "cm_classifier_test"
-output_dir = f"/u/scratch/r/ramadas/geneformer_output/k5folds/{datestamp}"
+output_dir = f"/u/scratch/r/ramadas/geneformer_output/t80-20/{datestamp}"
 
 print(datestamp)
 print(datestamp_min)
@@ -49,7 +49,7 @@ cc = Classifier(classifier="cell",
                 max_ncells=None,
                 freeze_layers = 2,
                 # have to change this to 1 for t80/20 or 5 for kfolds
-                num_crossval_splits = 5,
+                num_crossval_splits = 1,
                 # eval_size=0.2,
                 forward_batch_size=200,
                 nproc=16)
