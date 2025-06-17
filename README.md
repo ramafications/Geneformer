@@ -1,5 +1,5 @@
 Procedure
-Run /geneformer_cleaning.ipynb using this https://ucla.app.box.com/file/1506606455985?s=rccifmuc6l7nvrsyt21wqbsaas9hynlw
+Run /geneformer_cleaning.ipynb using loom file
 
 
 note: I skipped cleaning and concatenation given I did not have access to the original dataset, so I ran directly on the cleaned and concatenated loom file\
